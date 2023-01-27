@@ -1,0 +1,25 @@
+<?php
+return [
+    'Home'=>'Home',
+    'Services'=>'Services',
+    'Commercial'=>'Commercial',
+    'Team'=>'Team',
+    'Clients'=>'Clients',
+    'Faq'=>'Faq',
+    'Blog'=>'Blog',
+    'Contact'=>'Contact',
+    'Consultation'=>'Consultation',
+    'Join_us'=>'Join Us',
+    'Our_services'=>'Our Services',
+    'Commercial_issus'=>'المهتدين', //question
+    'Expert_laywers'=>'Expert Laywers',
+    'Closed_cases'=>'Closed Cases',
+    'Successful_cases'=>'Successful Cases',
+    'Trusted_clients'=>'Trusted Clients',
+    'Our_team'=>'Our Team',
+    'Our_clients'=>'Our Clients',
+    'Common_questions'=>'Common Issues',
+    'Our_blogs'=>'Our Blog',
+    'Contact_us'=>'Contact Us',
+    'Send'=>'Send',   
+];

@@ -1,0 +1,308 @@
+Saluton!                                               31.01.1995.
+
+
+          Tiujn c^i fajlojn ni donas al vi tute senpage!
+
+                          VI  NE  RAJTAS
+
+        uzi  ilin  por  ajna  komerca  au profitiga celo,
+
+               kaj VI NE RAJTAS VENDI au lui ilin!
+
+  Vi povas transdoni ilin al viaj esperantistaj amikoj nur  dona-
+  ce,  kondic^e,  ke  ankau tiun c^i fajlon  "Legu.min" vi trans-
+  donas,  kaj aparte vi atentigas vian amikon pri tiu c^i punkto!
+
+
+------------------------------------------------------------------
+
+Tiun c^i tekston ni devis skribi per ASCII-kodoj  kaj  ne  per  la
+veraj e-literoj,  c^ar  vi ankorau  ne havas ilin en la komputilo.
+Por ke vi ne havu problemojn,  antau  ol  instali  bonvolu  atente
+finlegi tiun c^i tekston! 
+
+------------------------------------------------------------------
+
+
+Jam okazis pluraj provoj por ebligi la uzadon de komputiloj por e-
+lingvaj  tekstoj. Ilia komuna malavantag^o estas, ke ili respondis
+nur  al  tiu  au alia postulo, sed la g^isnunaj provoj ne klopodis
+solvi la problemon en kompleksa maniero.
+
+Post  la analizo  de la g^isnunaj  provoj, ni decidis rekomenci la
+laboron, kaj ni konsideris la sekvajn postulojn:
+
+ - Oni gardu  c^iujn jam ekzistantajn nacilingvajn literojn ene de
+   la  fajlo,  por  ke  la koncerna literaro ('fonto') estu uzebla
+   krom esperanto ankau por la nacilingvaj tekstoj;
+
+ - Kelkaj  subvindozaj  programoj uzas specialan, propran kodaron.
+   Ekz. la  konata  enpag^iga  programo  'Ventura' ne vidas c^iujn
+   literojn  ene de la fajlo, do estis kondic^o, ke la esperantajn
+   literojn ni metu al tiuj lokoj, kiuj estas uzeblaj praktike por
+   c^iuj konataj de ni Windows-programoj, inkluzive ankau Ventura.
+ 
+ - Ni rezignu pri kelkaj certaj kodoj  (ekz. 128, 255 ktp),  kiujn
+   kelkaj programoj kaj printiloj povas 'miskompreni' kaj pro tiuj
+   ili povas fus^funkcii.  (Ni klopodu elformi solvon,  kio  estas  
+   uzebla por kiel eble plej da esperantistoj, sendepende de  tio, 
+   kian programon ili uzas, au kian printilon ili havas.)
+
+ - Multaj esperantistoj uzas DOS-an tekstoprilaboran programon, au
+   sendas  materialon pere de elektronika pos^to (komputila reto),
+   kio  ebligas  la  uzon  nur  de  ASCII-kodoj. Do, la esperantaj
+   literoj  devas  trovig^i  en  tiuj  lokoj,  kiuj estas automate
+   konverteblaj de ASCII al ANSI (=Windows) kodoj.
+
+Surbaze de tiuj kondic^oj ni solvis la distribuon de la karaktroj.
+Lau  nia scio nun tiu c^i maniero estas la plej bona kaj kompleksa
+solvo.
+
+Per tiu c^i literaro vi povas uzi ankau viajn  nacilingvajn  lite-
+rojn (= okcidenteuropaj lingvoj) kaj ankau esperanton.
+
+
+
+Enhavo
+------
+
+
+1. Kie oni povas uzi tiujn c^i esperantajn literojn?
+2. Kiel meti e-literojn en la komputilon?
+3. Kie trovi la esperantajn literojn?
+4. Kiel konverti DOS-tekstojn por la Windows-aj programoj?
+5. Kiel meti e-literojn al via klavaro?
+6. Tajpado de e-tekstoj kun subvindoza programo
+7. Tajpado de e-tekstoj kun DOS-programo.
+8. Aldonaj rimarkoj
+
+
+1. Kie oni povas uzi tiujn c^i esperantajn literarojn?
+------------------------------------------------------
+
+    La  kunsenditaj  litertipoj  estas  destinitaj por uzi ilin en
+    IBM-kongruaj komputiloj, uzantaj la  grafikan  programsistemon
+    Windows 3.1 (au postaj variantoj). Ili estas uzeblaj kun c^iuj
+    (lau nia scio) subvindozaj programoj!
+
+    Ekzistas  ankau variantoj de skaleblaj literaroj por Macintosh
+    komputiloj (*.MRF). C^i tie ni donas klarigon  nur  al la IBM-
+    sistemo, c^ar la alian ni ne konas.
+
+    La literaro povas esti printita kaj per lasera kaj per matrica
+    printiloj.
+
+
+2. Kiel meti la literaron en la komputilon?
+-------------------------------------------
+
+    Unue kopiu c^iujn fajlojn kun la grupiga finaj^o TTF de sur la
+    disketo  al la biblioteko  \WINDOWS\SYSTEM.  Poste startigu la
+    programon   Windows.  Elektu  en  'Control  Panel'  la  menuon
+    'Fonts'.
+
+    Premu  la butonon "True Type..." kaj faru x-on en la kvadrato:
+    "Enable  True Type Fonts" (= Permesu la aplikadon de skaleblaj
+    literaroj).  Post  la  premo  de  "OK" vi revenos al la antaua
+    menuo.
+
+    Premu la butonon 'ADD' kio signifas: "Ni instalos novajn lite-
+    rarojn".  Elektu la bibliotekon WINDOWS\SYSTEM, kaj el la ape-
+    ranta  listo  selektu c^iujn 'esperanto' literarojn, kaj premu
+    OK.  (Plurajn  litertipojn  vi povas elekti kun la helpo de la
+    butono  CTRL).  Post la fermo (=Close) de la menuo 'Fonts' kaj
+    de 'Control Panel' vi finis la instaladon de la e-literaro.
+
+    Por provi g^in startigu iun teksto-programon, ekz. plej simple
+    'Write'.  Tie  en  la  menuo 'Character' elektu iun esperanto-
+    literaron, kaj vi pretas por testi la literojn.
+
+
+3. Kie trovi la esperantajn literojn?
+-------------------------------------
+
+
+    La  sistemo  Windows uzas ne la kutimajn ASCII kodojn sed t.n.
+    ANSI - numeradon.  La  esperantajn  literojn  vi trovos sub la
+    sekvaj kodoj:
+
+
+            ANSI    Kod-folio 850            ANSI    Kod-folio 850
+          Windows   (Alt+cifero)           Windows   ( ALT+cifero)
+                                  
+    c^:     0164        207     ³    C^:     0195         199
+    g^:     0223        225     ³    G^:     0207         216
+    s^:     0217        235     ³    S^:     0163         156
+    j^:     0162        189     ³    J^:     0165         190
+    h^:     0167        245     ³    H^:     0176         248
+    u':     0170        166     ³    U':     0186         167
+
+
+    Por  plenumi  la  deirajn  kondic^ojn,  ni  ne trovis sufic^an
+    taugan pozicion. Pro tio ni devis uzi la lokon de kelkaj naci-
+    aj  karaktroj. Tamen por ne perdi ilin, ni simple translokigis
+    ilin al aliaj pozicioj.
+
+    Bonvolu do kontroli kaj noti por vi mem, kiaj signoj trovig^as
+    en la  loko de 0134, 0135, 0130, 0190, 0160, 0173, 0188, 0175,
+    kaj 0168 ANSI-kodoj. (Ilin atingu per  samtempa  premo  de  la
+    klavo ALT + entajpado de tiuj ciferoj  per  la  dekstra cifera
+    plato).
+
+4. Kiel konverti DOS tekstojn por Windows-aj programoj?
+-------------------------------------------------------
+
+    Atentigo: La proceduroj de tiu c^i punkto estas necesaj ne nur
+              por la konvertado DOS-Windows, sed ankau por sukcesa
+              arang^ado de via E-lingva klavaro!!!
+
+    Por  ebligi  la  automatan  konvertadon de ASCII karaktroj  de
+    de esperantaj tekstoj  vi  devas  eliri  el  Windows,  kaj
+    g^ustigi la "uzatan lingvon kaj Kod-folion".
+
+    Starante en la  biblioteko :\WINDOWS tajpu: setup.  Sur la ek-
+    rano aperas listo de informoj pri via sistemo  ("System Infor-
+    mation").  Per la kursoro iru al la rubriko 'langauge', elektu
+    g^in  per  'enter',  kaj  poste  elektu  la esprimon: "English
+    (International)". Poste sammaniere elektu en la rubriko 'Code-
+    page'  la esprimon: "Multi-Lingual (850)". Akceptu la komplek-
+    san sistem-informon lau la komputilaj instrukcioj. (Se post la
+    fino vi ne estas certa pri la g^usta rezulto, ripetu la proce-
+    duron!)
+
+    La  konvertenda DOS teksto devas havi la sekvajn "esperantajn"
+    literojn:
+
+
+          simbolo   ASCII-kodo               simbolo  ASCII-kodo
+
+
+       c^:   Ï          207     ³    C^:       Ç          199
+                                ³
+       g^:   á          225     ³    G^:       Ø          216
+                                ³ 
+       s^:   ë          235     ³    S^:       œ          156
+                                ³
+       j^:   ½          189     ³    J^:       ¾          190
+                                ³
+       h^:   õ          245     ³    H^:       ø          248
+                                ³
+       u':   ¦          166     ³    U':       §          167
+
+
+    En  la koncerna Windows programo vi devas 'importi' simple DOS
+    tekston (formato *.txt).
+
+
+
+5. Kiel meti e-literojn al via klavaro?
+---------------------------------------
+
+
+  - La e-literojn vi povas atingi per la maniero "ALT + ANSI-kodo"
+    (vidu en la punkto 3.), kiu  ne  devigas  al  vi  modifi  vian
+    klavaron.
+
+    Tamen  por entajpi pli longajn e-tekstojn tiu maniero ne estas
+    oportuna, do necesas meti la e-literojn sur vian klavaron. Por
+    tio vi uzu ajnan  klavaro-redifinan  programon funkciantan sub
+    Windows,  ili  estas  simple haveblaj el BBS-j au en komputil-
+    kaj programvendejoj.
+
+    (Redifini la klavaron signifas tion, ke ni instrukcias  al  la 
+    komputilo,  kiu  litero  aperu sur la ekrano, se ni premas iun 
+    butonon. Ekz. ni povus instrukcii, ke anstatau la signo: ] ape-
+    ru la esperanta g^, se ni premas la butonon: ] ktp.) 
+
+    - Por klavar-redifio ni proponas al vi akiri tian programon, kiu
+    ebligas la s^ang^adon de diverslingvaj klavaroj per simpla premo
+    de kelkaj klavoj. Tio ebligos, ke laudezire vi povos tajpi tekston
+    ekz. en angla au en via nacia lingvo au en Esperanto.
+
+    - Se vi ne sukcesas akiri tian programon, kiel provizora solvo,
+    vi povas uzi por Windows la kunsenditan programeton 'kbdesp.dll' .
+    
+    1. Vi kopiu la fajlon "kbdesp.dll" en la bibliotekon WINDOWS\SYSTEM.
+    
+    2. Poste per iu tekstoredakta programo (Norton, Write, Sysedit ktp)
+      vi devas modifi la fajlon ':\Windows\system.ini'. En ties komenco,
+      la dua alineo (c^apitro: keyboard) difinas la uzatan klavaron. Metu
+      punktokomon (;) antau la linio: "keyboard.dll=..... .dll". (La punkto-
+      komo malvalidigas tiun komandolinion). Poste entajpu en la sekvan linion:
+                    keyboard.dll=kbdesp.dll
+    
+    3. Savu vian modifon, restartu vian komputilon, kaj ekde nun g^i uzos
+       la e-klavaron. Premante c^iujn klavojn vi trovos la e-literojn.
+    
+    Tiu c^i solvo bone funkcias, sed ne estas perfekta, g^i povas por
+    vi esti nur provizora solvo. Se vi volas nuligi la esperanto-
+    klavaron, vi denove devas modifi la fajlon "system.ini", metante
+    punktokomon antau la linio "keyboard.dll=kbdesp.dll" kaj forigante
+    la punktokomon de antau la origina esprimo.
+
+
+    - Alia eblo por arang^i e-klavaron estas la sekva maniero:
+      
+  !   1. Kopiu la kunsenditan fajlon "kbdesp.dll" en la bibliotekon
+  !      :\windows\system
+  !
+  !   2. Renomu tiun fajlon "kbdesp.dll" al "kbdfi.dll" kiu signifas la
+  !      finnan klavaron (finnoj remonu g^in al "kbdit.dll" = itala klavaro).
+  !      Pere de "Control-panel" ikono "International" elektu la finnan
+  !      klavaron, kio kompreneble signifos al vi ne la finnan, sed 
+  !      Esperantan klavaron (finnoj elektu italan). Se vi finas la
+  !      E-laboron, same pere de "Control panel, ikono International"
+  !      vi povas reveni al via nacia klav-arang^o.
+
+
+6. Tajpado de e-tekstoj kun subvindoza programo
+-----------------------------------------------
+
+    C^e  la komenco vi elektu vian redifinitan e-klavaron, kaj kun
+    ajna   subvindoza   programo   vi  povas  entajpi  esperantajn
+    tekstojn.
+
+    Se vi provizore uzas nian kunsenditan fajlon "kbdesp.dll" la
+    Esperanto-literoj aperas rekte sur viaj klavoj.
+
+    Specialajn karaktrojn, ne troveblajn sur la klavoj vi povas uzi
+    aplikante la Windows-an helpprogramon "Map" au la klavkombinojn
+    ALT+cifero.
+
+7. Tajpado de e-tekstoj kun DOS-programo.
+-----------------------------------------
+
+    Se  vi  kutime  uzas nevindozan, sed DOS-programon por entajpi
+    tekstojn, vi havas du elekteblojn:
+
+    - c^e la tajpado por e-literoj uzu la  ASCII-kodojn,  donitajn 
+      en  la  punkto 4. (ALT + ASCII-kodo,  sed  ekzistas  klavar-
+      redifinaj programoj ankau por DOS programoj).       
+
+    - se  en  iu  DOS  tekstoprilabora  programo  vi jam uzas iujn
+      kodojn anstatau la e-literoj  (ekz. c^, au ^c au ‡ ktp),  vi
+      povas daure uzi ilin,  sed  c^e  la  fino s^ang^u ilin al la
+      kodoj donitaj en la punkto 4. (ekzemple uzante makroon).
+
+    Post  la konvertado, sub Windows la teksto aperas kun la veraj
+    esperanto-literoj.
+
+8. Aldonaj rimarkoj
+-------------------
+
+     Se vi uzas iun nacilingvan varianton de  Windows,  ni  proponas
+     
+   - konsulti iun komputil-fakulon, kaj forigi el la fajloj config.sys
+     kaj autoexec.bat la komandojn por nacia kod-folio. Por uzi vian
+     naciajn karaktrojn prefere uzu taugan klavarredifinan prgramon.
+
+   - se la antaua solvo ne estas farebla (ekz. c^ar vi uzas la orient-
+     europan varianton de la literaro arial, times, ktp), vi povas uzi
+     la e-literojn kiel aparta litertipo.
+
+   - kelkaj subvindozaj programoj (ekz. Win-works, Ventura ktp) povas
+     korekte uzi la E-karaktrojn nur c^e la kodfolio 850. (Por povi uzi
+     g^in vi devas havi la fajlon "xlat850.bin" en la biblioteko
+     :\windows\system. Mem tiu fajlo trovig^as sur iu origina windows-
+     instaldisketo. Se vi plenumas la instrukciojn priskribitajn en la
+     2-a alineo de la punkto 4, la fajlo mem metig^os tien.)

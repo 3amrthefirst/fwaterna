@@ -1,0 +1,229 @@
+/* Default styling for jQuery Calendars Picker v2.0.0. */
+.calendars {
+	direction: ltr  !important ;
+	background-color: #fff !important ;
+	color: #000 !important ;
+	border: 1px solid #444 !important ;
+    -moz-border-radius: 0.25em !important ;
+    -webkit-border-radius: 0.25em !important ;
+    border-radius: 0.25em !important ;
+	font-family: Arial,Helvetica,Sans-serif !important ;
+	font-size: 90% !important ;
+	position: relative;
+}
+.calendars * {
+	direction: ltr  !important ;
+}
+.calendars-rtl {
+	direction: rtl !important ;
+}
+.calendars-popup {
+	z-index: 10000 !important ;
+}
+.calendars-disable {
+	position: absolute !important ;
+	z-index: 100 !important ;
+	background-color: white !important ;
+	opacity: 0.5 !important ;
+	filter: alpha(opacity=50) !important ;
+}
+.calendars a {
+	color: #fff !important ;
+	text-decoration: none !important ;
+}
+.calendars a.calendars-disabled {
+	color: #888 !important ;
+	cursor: auto !important ;
+}
+.calendars button {
+    margin: 0.25em !important ;
+    padding: 0.125em 0em !important ;
+    background-color: #fcc !important ;
+    border: none !important ;
+    -moz-border-radius: 0.25em !important ;
+    -webkit-border-radius: 0.25em !important ;
+    border-radius: 0.25em !important ;
+    font-weight: bold !important ;
+}
+.calendars-nav, .calendars-ctrl {
+	float: left !important ;
+	width: 100% !important ;
+	background-color: #000 !important ;
+	color: #fff !important ;
+	font-size: 90% !important ;
+	font-weight: bold !important ;
+}
+.calendars-ctrl {
+	background-color: #600 !important ;
+}
+.calendars-cmd {
+	width: 30% !important ;
+}
+.calendars-cmd:hover {
+	background-color: #777 !important ;
+}
+.calendars-ctrl .calendars-cmd:hover {
+	background-color: #f08080 !important ;
+}
+.calendars-cmd-prevJump, .calendars-cmd-nextJump {
+	width: 8% !important ;
+}
+a.calendars-cmd {
+	height: 1.5em !important ;
+}
+button.calendars-cmd {
+	text-align: center !important ;
+}
+.calendars-cmd-prev, .calendars-cmd-prevJump, .calendars-cmd-clear {
+	float: left !important ;
+	padding-left: 2% !important ;
+}
+.calendars-cmd-current, .calendars-cmd-today {
+	float: left !important ;
+	width: 35% !important ;
+	text-align: center !important ;
+}
+.calendars-cmd-next, .calendars-cmd-nextJump, .calendars-cmd-close {
+	float: right !important ;
+	padding-right: 2% !important ;
+	text-align: right !important ;
+}
+.calendars-rtl .calendars-cmd-prev, .calendars-rtl .calendars-cmd-prevJump,
+.calendars-rtl .calendars-cmd-clear {
+	float: right !important ;
+	padding-left: 0% !important ;
+	padding-right: 2% !important ;
+	text-align: right !important ;
+}
+.calendars-rtl .calendars-cmd-current, .calendars-rtl .calendars-cmd-today {
+	float: right !important ;
+}
+.calendars-rtl .calendars-cmd-next, .calendars-rtl .calendars-cmd-nextJump,
+.calendars-rtl .calendars-cmd-close {
+	float: left !important ;
+	padding-left: 2% !important ;
+	padding-right: 0% !important ;
+	text-align: left !important ;
+}
+.calendars-month-nav {
+	float: left !important ;
+	background-color: #777 !important ;
+	text-align: center !important ;
+}
+.calendars-month-nav div {
+	float: left !important ;
+	width: 12.5% !important ;
+	margin: 1% !important ;
+	padding: 1% !important ;
+}
+.calendars-month-nav span {
+	color: #888 !important ;
+}
+.calendars-month-row {
+	clear: left !important ;
+}
+.calendars-month {
+	float: left !important ;
+	width: 15em !important ;
+	border: 1px solid #444 !important ;
+	text-align: center !important ;
+}
+.calendars-month-header, .calendars-month-header select, .calendars-month-header input {
+	height: 1.5em !important ;
+	background-color: #444 !important ;
+	color: #fff !important ;
+	font-weight: bold !important ;
+}
+.calendars-month-header select, .calendars-month-header input {
+	height: 1.4em !important ;
+	border: none !important ;
+	position: absolute;
+}
+.calendars-month-header select:first-child{
+	left: 0;
+	width: 90px;
+}
+.calendars-month-header select:last-child{
+	right: 0;
+	width: 80px;
+}
+.calendars-month-header input {
+	position: absolute !important ;
+	display: none !important ;
+}
+.calendars-month table {
+	width: 100% !important ;
+	border-collapse: collapse !important ;
+}
+.calendars-month thead {
+	border-bottom: 1px solid #aaa !important ;
+}
+.calendars-month th, .calendars-month td {
+	margin: 0em !important ;
+	padding: 0em !important ;
+	font-weight: normal !important ;
+	text-align: center !important ;
+}
+.calendars-month th {
+	border: 1px solid #777 !important ;
+}
+.calendars-month th, .calendars-month th a {
+	background-color: #777 !important ;
+	color: #fff !important ;
+}
+.calendars-month td {
+	background-color: #eee !important ;
+	border: 1px solid #aaa !important ;
+}
+.calendars-month td.calendars-week {
+	border: 1px solid #777 !important ;
+}
+.calendars-month td.calendars-week * {
+	background-color: #777 !important ;
+	color: #fff !important ;
+	border: none !important ;
+}
+.calendars-month a {
+	display: block !important ;
+	width: 100% !important ;
+	padding: 0.125em 0em !important ;
+	background-color: #eee !important ;
+	color: #000 !important ;
+	text-decoration: none !important ;
+}
+.calendars-month span {
+	display: block !important ;
+	width: 100% !important ;
+	padding: 0.125em 0em !important ;
+}
+.calendars-month td span {
+	color: #888 !important ;
+}
+.calendars-month td .calendars-other-month {
+	background-color: #fff !important ;
+}
+.calendars-month td .calendars-weekend {
+	background-color: #ddd !important ;
+}
+.calendars-month td .calendars-today {
+	background-color: #f0c0c0 !important ;
+}
+.calendars-month td .calendars-highlight {
+	background-color: #f08080 !important ;
+}
+.calendars-month td .calendars-selected {
+	background-color: #777 !important ;
+	color: #fff !important ;
+}
+.calendars-month th.calendars-week {
+	background-color: #777 !important ;
+	color: #fff !important ;
+}
+.calendars-status {
+	clear: both !important ;
+	background-color: #ddd !important ;
+	text-align: center !important ;
+}
+.calendars-clear-fix {
+	clear: both !important ;
+}

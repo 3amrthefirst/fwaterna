@@ -1,0 +1,25 @@
+<?php
+return [
+    'Home'=>'الرئيسية',
+    'Services'=>'خدماتنا',
+    'Commercial'=>'تعدادنا',
+    'Team'=>'فريقنا',
+    'Clients'=>'عملائنا',
+    'Faq'=>'الإستشارات',
+    'Blog'=>'المدونة',
+    'Contact'=>'التواصل',
+    'Consultation'=>'إستشارة',
+    'Join_us'=>'إنضم إلينا',
+    'Our_services'=>'خدماتنا',
+    'Commercial_issus'=>'المهتدين', //question
+    'Expert_laywers'=>'المحامين الخبراء',
+    'Closed_cases'=>'الفضايا المغلقة',
+    'Successful_cases'=>'القضايا الناجحة',
+    'Trusted_clients'=>'العملاء الموثوق بهم',
+    'Our_team'=>'فريقنا',
+    'Our_clients'=>'عملائنا',
+    'Common_questions'=>'الأسئلة الشائعة',
+    'Our_blogs'=>'المدونة',
+    'Contact_us'=>'تواصل معنا',
+    'Send'=>'إرسال',   
+];

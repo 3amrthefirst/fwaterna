@@ -1,0 +1,5 @@
+@font-face {
+font-family: 'JF-Flat-regular';
+src: url('fonts/JF-Flat-regular.woff') format('woff'),
+url('fonts/JF-Flat-regular.ttf');
+}

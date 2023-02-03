@@ -1,10 +1,11 @@
 <?php
 
+use App\Http\Controllers\Admin\CompanyController;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
 
 Route::group(['middleware' => ['guest:admin']], function () {
-    Route::get('/login', 'AuthController@viewLogin')->name('login');
+    Route::get('/login', 'AuthController@viewLogin')->name('login.view');
     Route::post('/login', 'AuthController@login')->name('login');
 });
 
@@ -61,4 +62,8 @@ Route::group(['middleware' => ['auth:admin']], function () {
     Route::post('download', 'BackupController@download')->name('db-download');
     Route::post('upload', 'BackupController@upload')->name('db-upload');
 
+    //company
+    Route::get('companies', [CompanyController::class, 'index']);
+    Route::get('companies-clients/{id}', [CompanyController::class, 'clients'])->name('company.clients');
+    Route::get('companies-categories/{id}', [CompanyController::class, 'categories'])->name('company.categories');
 });

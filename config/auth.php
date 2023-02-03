@@ -45,8 +45,8 @@ return [
             'provider' => 'sales',
         ],
         'api' => [
-            'driver' => 'token',
-            'provider' => 'users',
+            'driver' => 'passport',
+            'provider' => 'companies',
             'hash' => false,
         ],
     ],
@@ -73,9 +73,9 @@ return [
             'driver' => 'eloquent',
             'model' => App\User::class,
         ],
-        'sales' => [
+        'companies' => [
             'driver' => 'eloquent',
-            'model' => App\Models\Sale::class,
+            'model' => App\Models\Company::class,
         ],
 
         // 'users' => [

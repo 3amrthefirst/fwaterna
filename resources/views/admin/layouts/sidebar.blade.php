@@ -32,20 +32,20 @@
                 </a>
             </li>
             @can('عرض العملاء')
-            <li>
-                <a href="{{url('admin/clients')}}">
-                    <i class="fa fa-users" aria-hidden="true"></i>
-                    <span class="nav-label"> {{__('العملاء')}}</span>
-                </a>
-            </li>
+{{--            <li>--}}
+{{--                <a href="{{url('admin/clients')}}">--}}
+{{--                    <i class="fa fa-users" aria-hidden="true"></i>--}}
+{{--                    <span class="nav-label"> {{__('العملاء')}}</span>--}}
+{{--                </a>--}}
+{{--            </li>--}}
             @endcan
             @can('عرض المحامين')
-            <li disabled>
-                <a href="#" >
-                    <i class="fa fa-balance-scale" aria-hidden="true"></i>
-                    <span class="nav-label"> {{__('الفواتير')}}</span>
-                </a>
-            </li>
+{{--            <li disabled>--}}
+{{--                <a href="#" >--}}
+{{--                    <i class="fa fa-balance-scale" aria-hidden="true"></i>--}}
+{{--                    <span class="nav-label"> {{__('الفواتير')}}</span>--}}
+{{--                </a>--}}
+{{--            </li>--}}
             @endcan
             @can('عرض طلبات الإنضمام')
             <li>
@@ -56,13 +56,20 @@
             </li>
             @endcan
             @can('عرض المقالات')
+{{--            <li>--}}
+{{--                <a href="{{url('admin/articles')}}">--}}
+{{--                    <i class="fa fa-newspaper" aria-hidden="true"></i>--}}
+{{--                    <span class="nav-label"> {{__('منتجات العملاء')}}</span>--}}
+{{--                </a>--}}
+{{--            </li>--}}
+            @endcan
             <li>
-                <a href="{{url('admin/articles')}}">
-                    <i class="fa fa-newspaper" aria-hidden="true"></i>
-                    <span class="nav-label"> {{__('منتجات العملاء')}}</span>
+                <a href="{{url('admin/companies')}}">
+                    <i class="fa fa-building"></i>
+                    <span class="nav-label">الشركات</span>
                 </a>
             </li>
-            @endcan
+
             <li>
                 <a href="{{url('admin/update-profile')}}">
                     <i class="fa fa-user"></i>

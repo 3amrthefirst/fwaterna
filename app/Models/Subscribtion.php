@@ -12,8 +12,13 @@ class Subscribtion extends Model
     public $timestamps = true;
     protected $fillable = [
         'days',
-        'text',
+        'name',
         'price'
     ];
+
+    public function company()
+    {
+        return $this->hasMany(Company::class, 'subscribe_id');
+    }
 
 }

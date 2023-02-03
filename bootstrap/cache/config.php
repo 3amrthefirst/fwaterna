@@ -1,7 +1,7 @@
 <?php return array (
   'app' => 
   array (
-    'name' => 'futara',
+    'name' => 'dashboard',
     'env' => 'local',
     'debug' => true,
     'url' => 'http://localhost',
@@ -102,8 +102,8 @@
       ),
       'api' => 
       array (
-        'driver' => 'token',
-        'provider' => 'users',
+        'driver' => 'passport',
+        'provider' => 'companies',
         'hash' => false,
       ),
     ),
@@ -114,10 +114,10 @@
         'driver' => 'eloquent',
         'model' => 'App\\User',
       ),
-      'sales' => 
+      'companies' => 
       array (
         'driver' => 'eloquent',
-        'model' => 'App\\Models\\Sale',
+        'model' => 'App\\Models\\Company',
       ),
     ),
     'passwords' => 
@@ -226,7 +226,7 @@
         'endpoint' => NULL,
       ),
     ),
-    'prefix' => 'futara_cache',
+    'prefix' => 'dashboard_cache',
   ),
   'charts' => 
   array (
@@ -328,7 +328,7 @@
       'options' => 
       array (
         'cluster' => 'redis',
-        'prefix' => 'futara_database_',
+        'prefix' => 'dashboard_database_',
       ),
       'default' => 
       array (
@@ -559,7 +559,7 @@
     'from' => 
     array (
       'address' => NULL,
-      'name' => 'futara',
+      'name' => 'dashboard',
     ),
     'markdown' => 
     array (
@@ -654,7 +654,7 @@
       0 => 2,
       1 => 100,
     ),
-    'cookie' => 'futara_session',
+    'cookie' => 'dashboard_session',
     'path' => '/',
     'domain' => NULL,
     'secure' => NULL,

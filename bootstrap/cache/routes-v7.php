@@ -18,6 +18,200 @@ app('router')->setCompiledRoutes(
     0 => false,
     1 => 
     array (
+      '/api/register' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::qmsGvjNA8k8hmeyF',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/login' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::hGaoOXTtQY8c6FrS',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/user' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::50zUPkLWNjKfVl9n',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/logout' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::NtDgd3IghzDXJiCd',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/category/all' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::vlv6ZtesYVKtcwxH',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/category/store' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::cUMz9AgMARqU9cOK',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/client/all' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::Hx7XeZXA5QmGTkJ6',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/client/store' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::JrbOS7IOi5s1ZyYs',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/subscription' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::nyGjUS1tJobEIXs0',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/subscription/make' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::92oIcBM2zNzUaylJ',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
       '/' => 
       array (
         0 => 
@@ -99,7 +293,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::TZ36bHuG9BmdaI1k',
+            '_route' => 'generated::1ArEMu4JcVeM5JzY',
           ),
           1 => NULL,
           2 => 
@@ -119,7 +313,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::6Z9wzmKBBIyczMeU',
+            '_route' => 'generated::GpQbhyjQmktKJhar',
           ),
           1 => NULL,
           2 => 
@@ -643,7 +837,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::9ng1lfM8dEgtZG7j',
+            '_route' => 'generated::N6PDXCqyVknBFnEf',
           ),
           1 => NULL,
           2 => 
@@ -660,7 +854,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::TMwJ7r1fXqQYkQae',
+            '_route' => 'generated::sy5R03JfEnRqFhTA',
           ),
           1 => NULL,
           2 => 
@@ -843,10 +1037,30 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
+      '/admin/companies' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::Lfghbjf1b4b1EARh',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
     ),
     2 => 
     array (
-      0 => '{^(?|/admin/(?|c(?|lients/([^/]++)(?|(*:39)|/edit(*:51)|(*:58))|on(?|sults/([^/]++)(?|(*:88)|/edit(*:100)|(*:108))|tacts/([^/]++)(?|(*:134)|/edit(*:147)|(*:155))))|l(?|aywers/([^/]++)(?|(*:188)|/edit(*:201)|(*:209))|ogs/([^/]++)(?|(*:233)|/edit(*:246)|(*:254)))|articles/([^/]++)(?|(*:284)|/edit(*:297)|(*:305))|download\\-pdf/([^/]++)(*:336)|join\\-requests/([^/]++)(?|(*:370)|/edit(*:383)|(*:391))|se(?|rvices/([^/]++)(?|(*:423)|/edit(*:436)|(*:444))|ttings/([^/]++)(?|(*:471)))|policies/([^/]++)(?|(*:501)|/edit(*:514)|(*:522))|users/([^/]++)(?|(*:548)|/edit(*:561)|(*:569))|roles/([^/]++)(?|(*:595)|/edit(*:608)|(*:616))))/?$}sDu',
+      0 => '{^(?|/admin/(?|c(?|lients/([^/]++)(?|(*:39)|/edit(*:51)|(*:58))|o(?|n(?|sults/([^/]++)(?|(*:91)|/edit(*:103)|(*:111))|tacts/([^/]++)(?|(*:137)|/edit(*:150)|(*:158)))|mpanies\\-c(?|lients/([^/]++)(*:196)|ategories/([^/]++)(*:222))))|l(?|aywers/([^/]++)(?|(*:255)|/edit(*:268)|(*:276))|ogs/([^/]++)(?|(*:300)|/edit(*:313)|(*:321)))|articles/([^/]++)(?|(*:351)|/edit(*:364)|(*:372))|download\\-pdf/([^/]++)(*:403)|join\\-requests/([^/]++)(?|(*:437)|/edit(*:450)|(*:458))|se(?|rvices/([^/]++)(?|(*:490)|/edit(*:503)|(*:511))|ttings/([^/]++)(?|(*:538)))|policies/([^/]++)(?|(*:568)|/edit(*:581)|(*:589))|users/([^/]++)(?|(*:615)|/edit(*:628)|(*:636))|roles/([^/]++)(?|(*:662)|/edit(*:675)|(*:683))))/?$}sDu',
     ),
     3 => 
     array (
@@ -938,7 +1152,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      88 => 
+      91 => 
       array (
         0 => 
         array (
@@ -961,7 +1175,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      100 => 
+      103 => 
       array (
         0 => 
         array (
@@ -984,7 +1198,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      108 => 
+      111 => 
       array (
         0 => 
         array (
@@ -1026,7 +1240,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      134 => 
+      137 => 
       array (
         0 => 
         array (
@@ -1049,7 +1263,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      147 => 
+      150 => 
       array (
         0 => 
         array (
@@ -1072,7 +1286,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      155 => 
+      158 => 
       array (
         0 => 
         array (
@@ -1114,7 +1328,53 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      188 => 
+      196 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'company.clients',
+          ),
+          1 => 
+          array (
+            0 => 'id',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      222 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'company.categories',
+          ),
+          1 => 
+          array (
+            0 => 'id',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      255 => 
       array (
         0 => 
         array (
@@ -1137,7 +1397,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      201 => 
+      268 => 
       array (
         0 => 
         array (
@@ -1160,7 +1420,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      209 => 
+      276 => 
       array (
         0 => 
         array (
@@ -1202,7 +1462,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      233 => 
+      300 => 
       array (
         0 => 
         array (
@@ -1225,7 +1485,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      246 => 
+      313 => 
       array (
         0 => 
         array (
@@ -1248,7 +1508,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      254 => 
+      321 => 
       array (
         0 => 
         array (
@@ -1290,7 +1550,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      284 => 
+      351 => 
       array (
         0 => 
         array (
@@ -1313,7 +1573,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      297 => 
+      364 => 
       array (
         0 => 
         array (
@@ -1336,7 +1596,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      305 => 
+      372 => 
       array (
         0 => 
         array (
@@ -1378,7 +1638,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      336 => 
+      403 => 
       array (
         0 => 
         array (
@@ -1401,7 +1661,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      370 => 
+      437 => 
       array (
         0 => 
         array (
@@ -1424,7 +1684,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      383 => 
+      450 => 
       array (
         0 => 
         array (
@@ -1447,7 +1707,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      391 => 
+      458 => 
       array (
         0 => 
         array (
@@ -1489,7 +1749,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      423 => 
+      490 => 
       array (
         0 => 
         array (
@@ -1512,7 +1772,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      436 => 
+      503 => 
       array (
         0 => 
         array (
@@ -1535,7 +1795,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      444 => 
+      511 => 
       array (
         0 => 
         array (
@@ -1577,7 +1837,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      471 => 
+      538 => 
       array (
         0 => 
         array (
@@ -1619,7 +1879,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      501 => 
+      568 => 
       array (
         0 => 
         array (
@@ -1642,7 +1902,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      514 => 
+      581 => 
       array (
         0 => 
         array (
@@ -1665,7 +1925,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      522 => 
+      589 => 
       array (
         0 => 
         array (
@@ -1707,7 +1967,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      548 => 
+      615 => 
       array (
         0 => 
         array (
@@ -1730,7 +1990,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      561 => 
+      628 => 
       array (
         0 => 
         array (
@@ -1753,7 +2013,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      569 => 
+      636 => 
       array (
         0 => 
         array (
@@ -1795,7 +2055,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      595 => 
+      662 => 
       array (
         0 => 
         array (
@@ -1818,7 +2078,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      608 => 
+      675 => 
       array (
         0 => 
         array (
@@ -1841,7 +2101,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      616 => 
+      683 => 
       array (
         0 => 
         array (
@@ -1898,6 +2158,328 @@ app('router')->setCompiledRoutes(
   ),
   'attributes' => 
   array (
+    'generated::qmsGvjNA8k8hmeyF' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'api/register',
+      'action' => 
+      array (
+        'uses' => 'App\\Http\\Controllers\\Api\\CompanyController@register',
+        'controller' => 'App\\Http\\Controllers\\Api\\CompanyController@register',
+        'namespace' => NULL,
+        'prefix' => 'api',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::qmsGvjNA8k8hmeyF',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'generated::hGaoOXTtQY8c6FrS' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'api/login',
+      'action' => 
+      array (
+        'uses' => 'App\\Http\\Controllers\\Api\\CompanyController@login',
+        'controller' => 'App\\Http\\Controllers\\Api\\CompanyController@login',
+        'namespace' => NULL,
+        'prefix' => 'api',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::hGaoOXTtQY8c6FrS',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'generated::50zUPkLWNjKfVl9n' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'api/user',
+      'action' => 
+      array (
+        'middleware' => 'auth:api',
+        'uses' => 'App\\Http\\Controllers\\Api\\CompanyController@index',
+        'controller' => 'App\\Http\\Controllers\\Api\\CompanyController@index',
+        'namespace' => NULL,
+        'prefix' => 'api',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::50zUPkLWNjKfVl9n',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'generated::NtDgd3IghzDXJiCd' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'api/logout',
+      'action' => 
+      array (
+        'middleware' => 'auth:api',
+        'uses' => 'App\\Http\\Controllers\\Api\\CompanyController@logout',
+        'controller' => 'App\\Http\\Controllers\\Api\\CompanyController@logout',
+        'namespace' => NULL,
+        'prefix' => 'api',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::NtDgd3IghzDXJiCd',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'generated::vlv6ZtesYVKtcwxH' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'api/category/all',
+      'action' => 
+      array (
+        'middleware' => 'auth:api',
+        'uses' => 'App\\Http\\Controllers\\Api\\CategoryController@index',
+        'controller' => 'App\\Http\\Controllers\\Api\\CategoryController@index',
+        'namespace' => NULL,
+        'prefix' => 'api/category',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::vlv6ZtesYVKtcwxH',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'generated::cUMz9AgMARqU9cOK' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'api/category/store',
+      'action' => 
+      array (
+        'middleware' => 'auth:api',
+        'uses' => 'App\\Http\\Controllers\\Api\\CategoryController@store',
+        'controller' => 'App\\Http\\Controllers\\Api\\CategoryController@store',
+        'namespace' => NULL,
+        'prefix' => 'api/category',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::cUMz9AgMARqU9cOK',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'generated::Hx7XeZXA5QmGTkJ6' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'api/client/all',
+      'action' => 
+      array (
+        'middleware' => 'auth:api',
+        'uses' => 'App\\Http\\Controllers\\Api\\ClientController@index',
+        'controller' => 'App\\Http\\Controllers\\Api\\ClientController@index',
+        'namespace' => NULL,
+        'prefix' => 'api/client',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::Hx7XeZXA5QmGTkJ6',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'generated::JrbOS7IOi5s1ZyYs' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'api/client/store',
+      'action' => 
+      array (
+        'middleware' => 'auth:api',
+        'uses' => 'App\\Http\\Controllers\\Api\\ClientController@store',
+        'controller' => 'App\\Http\\Controllers\\Api\\ClientController@store',
+        'namespace' => NULL,
+        'prefix' => 'api/client',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::JrbOS7IOi5s1ZyYs',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'generated::nyGjUS1tJobEIXs0' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'api/subscription',
+      'action' => 
+      array (
+        'middleware' => 'auth:api',
+        'uses' => 'App\\Http\\Controllers\\Api\\CompanyController@subscription',
+        'controller' => 'App\\Http\\Controllers\\Api\\CompanyController@subscription',
+        'namespace' => NULL,
+        'prefix' => 'api/subscription',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::nyGjUS1tJobEIXs0',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'generated::92oIcBM2zNzUaylJ' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'api/subscription/make',
+      'action' => 
+      array (
+        'middleware' => 'auth:api',
+        'uses' => 'App\\Http\\Controllers\\Api\\CompanyController@makeSubscription',
+        'controller' => 'App\\Http\\Controllers\\Api\\CompanyController@makeSubscription',
+        'namespace' => NULL,
+        'prefix' => 'api/subscription',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::92oIcBM2zNzUaylJ',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
     'home' => 
     array (
       'methods' => 
@@ -2043,7 +2625,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::TZ36bHuG9BmdaI1k' => 
+    'generated::1ArEMu4JcVeM5JzY' => 
     array (
       'methods' => 
       array (
@@ -2065,7 +2647,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::TZ36bHuG9BmdaI1k',
+        'as' => 'generated::1ArEMu4JcVeM5JzY',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2080,7 +2662,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::6Z9wzmKBBIyczMeU' => 
+    'generated::GpQbhyjQmktKJhar' => 
     array (
       'methods' => 
       array (
@@ -2102,7 +2684,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::6Z9wzmKBBIyczMeU',
+        'as' => 'generated::GpQbhyjQmktKJhar',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4540,7 +5122,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::9ng1lfM8dEgtZG7j' => 
+    'generated::N6PDXCqyVknBFnEf' => 
     array (
       'methods' => 
       array (
@@ -4562,7 +5144,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::9ng1lfM8dEgtZG7j',
+        'as' => 'generated::N6PDXCqyVknBFnEf',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4577,7 +5159,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::TMwJ7r1fXqQYkQae' => 
+    'generated::sy5R03JfEnRqFhTA' => 
     array (
       'methods' => 
       array (
@@ -4598,7 +5180,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::TMwJ7r1fXqQYkQae',
+        'as' => 'generated::sy5R03JfEnRqFhTA',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5222,6 +5804,117 @@ app('router')->setCompiledRoutes(
         array (
         ),
         'as' => 'db-upload',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'generated::Lfghbjf1b4b1EARh' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/companies',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth:admin',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Admin\\CompanyController@index',
+        'controller' => 'App\\Http\\Controllers\\Admin\\CompanyController@index',
+        'namespace' => 'App\\Http\\Controllers\\Admin',
+        'prefix' => 'admin',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::Lfghbjf1b4b1EARh',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'company.clients' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/companies-clients/{id}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth:admin',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Admin\\CompanyController@clients',
+        'controller' => 'App\\Http\\Controllers\\Admin\\CompanyController@clients',
+        'namespace' => 'App\\Http\\Controllers\\Admin',
+        'prefix' => 'admin',
+        'where' => 
+        array (
+        ),
+        'as' => 'company.clients',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'company.categories' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/companies-categories/{id}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth:admin',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Admin\\CompanyController@categories',
+        'controller' => 'App\\Http\\Controllers\\Admin\\CompanyController@categories',
+        'namespace' => 'App\\Http\\Controllers\\Admin',
+        'prefix' => 'admin',
+        'where' => 
+        array (
+        ),
+        'as' => 'company.categories',
       ),
       'fallback' => false,
       'defaults' => 

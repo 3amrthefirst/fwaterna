@@ -19,6 +19,7 @@ class CreateClientsTable extends Migration
             $table->text('name');
 			$table->text('phone', 255);
 			$table->text('email', 255);
+            $table->foreignId('company_id');
         });
     }
 

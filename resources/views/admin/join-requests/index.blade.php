@@ -60,7 +60,7 @@
                     @foreach($records as $record)
                         <tr id="removable{{$record->id}}">
                             <td class="text-center">{{$loop->iteration}}</td>
-                            <td class="text-center">{{optional($record)->text}}</td>
+                            <td class="text-center">{{optional($record)->name}}</td>
                             <td class="text-center">{{optional($record)->days}}</td>
                             <td class="text-center">{{optional($record)->price}}</td>
                             <td class="text-center">

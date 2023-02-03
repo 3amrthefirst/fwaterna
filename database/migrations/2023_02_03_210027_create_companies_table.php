@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateSubscribtionsTable extends Migration
+class CreateCompaniesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,14 @@ class CreateSubscribtionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('subscribtions', function (Blueprint $table) {
+        Schema::create('companies', function (Blueprint $table) {
             $table->id();
-            $table->integer('days');
             $table->string('name');
-            $table->integer('price');
+            $table->string('email');
+            $table->string('phone');
+            $table->string('password');
+            $table->foreignId('subscribe_id')->default(0);
+            $table->date('subscription_end_date')->default(now());
             $table->timestamps();
         });
     }
@@ -29,6 +32,6 @@ class CreateSubscribtionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('subscribtions');
+        Schema::dropIfExists('companies');
     }
 }

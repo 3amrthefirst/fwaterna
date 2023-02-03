@@ -13,5 +13,10 @@ class Client extends Model
 
     protected $table = 'clients';
     public $timestamps = true;
-    protected $fillable = array('name','phone','email');
+    protected $fillable = array('name','phone','email','company_id');
+
+    public function company()
+    {
+        return $this->belongsTo(Company::class);
+    }
 }

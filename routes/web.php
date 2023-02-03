@@ -14,26 +14,7 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/clear-cache', function () {
-    Artisan::call('route:clear');
-    Artisan::call('view:clear');
-    Artisan::call('cache:clear');
-    Artisan::call('config:clear');
-    Artisan::call('config:cache');
-    return 'done';
-});
-
-
-Route::group(
-    [
-        'prefix' => LaravelLocalization::setLocale(),
-        'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath']
-    ],
-    function () {
-        Route::get('/','Front\MainController@index' );
-        Route::post('contact/{lang}', 'Admin\ContactController@store')->name('new_contact');
-    }
-);
+ Route::get('/','Front\MainController@index' )->name('home');
 
 
 

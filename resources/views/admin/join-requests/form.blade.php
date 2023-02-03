@@ -1,8 +1,7 @@
-{!! \App\MyHelper\Field::text('title' , 'عنوان المنتج' ) !!}
-
-{!! \App\MyHelper\Field::text('content' , 'المحتوى' ) !!}
+{!! \App\MyHelper\Field::text('text' , 'عنوان الباقه' ) !!}
+{!! \App\MyHelper\Field::number('days' , 'عدد الايام' ) !!}
 {!! \App\MyHelper\Field::number('price' , 'السعر' ) !!}
-{!! \App\MyHelper\Field::fileWithPreview('image','الصورة') !!}
+
 
 {{-- <hr>
 {!! \App\MyHelper\Field::datePicker('start_subscription','تاريخ بداية الاشتراك') !!}

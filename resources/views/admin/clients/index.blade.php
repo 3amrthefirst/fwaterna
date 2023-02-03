@@ -49,14 +49,6 @@
                 </div>
                 <div class="col-md-3">
                     <div class="form-group">
-                        {!! Form::text('fax',request()->input('fax'),[
-                            'class' => 'form-control',
-                            'placeholder' => 'الفاكس'
-                        ]) !!}
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="form-group">
                         <button class="btn btn-primary btn-block" type="submit"><i class="fa fa-search"></i>
                         </button>
                     </div>
@@ -75,7 +67,7 @@
                     <th class="text-center"> م</th>
                     <th class="text-center">اسم العميل </th>
                     <th class="text-center"> رقم الهاتف </th>
-                    <th class="text-center">الفاكس</th>
+
                     <th class="text-center"> البريد الالكتروني</th>
                     <th class="text-center"> اللوجو</th>
                     <th class="text-center"> تعديل</th>
@@ -88,7 +80,6 @@
                             <td class="text-center">{{$loop->iteration}}</td>
                             <td class="text-center">{{optional($record)->name}}</td>
                             <td class="text-center">{{optional($record)->phone}}</td>
-                            <td class="text-center">{{optional($record)->fax}}</td>
                             <td class="text-center">{{optional($record)->email}}</td>
                             <td class="text-center">
                                 <img src="{{asset($record->attachmentRelation->path)}}" style="width:60px;height:60px;border-raduis:100px;">

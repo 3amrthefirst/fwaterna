@@ -10,7 +10,7 @@
                             text-align:center;
                             border-radius: 50%;"
 
-                                src="{{asset(auth()->user()->attachmentRelation[0]->path ?? 'photos/cartoon.png')}}"/>
+                                src="{{asset(auth()->user()->attachmentRelation[0]->path ?? 'logo.jpeg')}}"/>
                     </div>
                     <a href="{{url('admin/update-profile')}}" class="text-center">
                         <span class="clear">
@@ -40,26 +40,18 @@
             </li>
             @endcan
             @can('عرض المحامين')
-            <li>
-                <a href="{{url('admin/laywers')}}">
+            <li disabled>
+                <a href="#" >
                     <i class="fa fa-balance-scale" aria-hidden="true"></i>
-                    <span class="nav-label"> {{__('المحامين')}}</span>
-                </a>
-            </li>
-            @endcan
-            @can('عرض اﻹستشارات')
-            <li>
-                <a href="{{url('admin/consults')}}">
-                    <i class="fa fa-handshake" aria-hidden="true"></i>
-                    <span class="nav-label"> {{__('اﻹستشارات')}}</span>
+                    <span class="nav-label"> {{__('الفواتير')}}</span>
                 </a>
             </li>
             @endcan
             @can('عرض طلبات الإنضمام')
             <li>
-                <a href="{{url('admin/join-requests')}}">
+                <a href="{{url('admin/join-requests')}}" aria-current="page">
                     <i class="fa fa-user-plus" aria-hidden="true"></i>
-                    <span class="nav-label"> {{__('طلبات الإنضمام')}}</span>
+                    <span class="nav-label"> {{__('الباقات')}}</span>
                 </a>
             </li>
             @endcan
@@ -67,53 +59,9 @@
             <li>
                 <a href="{{url('admin/articles')}}">
                     <i class="fa fa-newspaper" aria-hidden="true"></i>
-                    <span class="nav-label"> {{__('المقالات')}}</span>
+                    <span class="nav-label"> {{__('منتجات العملاء')}}</span>
                 </a>
             </li>
-            @endcan
-            @can('عرض رسائل التواصل')
-            <li>
-                <a href="{{url('admin/contacts')}}">
-                    <i class="fa fa-comment" aria-hidden="true"></i>
-                    <span class="nav-label"> {{__('رسائل التواصل')}}</span>
-                </a>
-            </li>
-            @endcan
-            @can('عرض السجلات')
-            <li>
-                <a href="{{url('admin/logs')}}">
-                    <i class="fa fa-copy" aria-hidden="true"></i>
-                    <span class="nav-label">{{__('السجلات')}}</span>
-                </a>
-            </li>
-            @endcan
-            @canany('عرض المستخدمين','عرض الرتب')
-            <li>
-                <a href="#"><i class="fa fa-users"></i> <span class="nav-label">المستخدمين</span><span
-                        class="fa arrow"></span></a>
-                <ul class="nav nav-second-level collapse">
-            @can('عرض المستخدمين')
-                    <li><a href="{{url('admin/users')}}">المستخدمين</a></li>
-            @endcan
-            @can('عرض الرتب')
-                    <li><a href="{{url('admin/roles')}}"> رتب المستخدمين</a></li>
-            @endcan
-                </ul>
-            </li>
-            @endcan
-            @can('عرض اﻹعدادات')
-            <li>
-                <a href="#">
-                    <i class="fa fa-cogs"></i>
-                    <span class="nav-label">الإعدادات</span>
-                    <span class="fa arrow"></span>
-                </a>
-                <ul class="nav nav-second-level collapse">
-                    <li><a href="{{url('admin/settings/main')}}">إعدادات عامة</a></li>
-                    <li><a href="{{route('services.index')}}">{{__('الخدمات')}}</a></li>
-                    <li><a href="{{url('admin/settings/ar')}}">اﻹعدادات باللغة العربية</a></li>
-                    <li><a href="{{url('admin/settings/en')}}">اﻹعدادات باللغة اﻹنجليزية</a></li>
-                </ul>
             @endcan
             <li>
                 <a href="{{url('admin/update-profile')}}">

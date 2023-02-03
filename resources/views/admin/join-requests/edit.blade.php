@@ -1,6 +1,6 @@
 
 @extends('admin.layouts.main',[
-                                'page_header'       => 'الاشتراكات',
+                                'page_header'       => 'الباقات',
                                 'page_description'  => ' تعديل   ',
                                 'link' => url('admin/join-requests')
                                 ])

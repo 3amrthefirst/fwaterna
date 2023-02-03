@@ -7,7 +7,7 @@
 @section('content')
         <!-- general form elements -->
 <div class="ibox">
-    
+
             <!-- form start -->
     {!! Form::model($model,[
                             'url'=>url('admin/laywers/'.$model->id),

@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\JoinRequest;
 use App\Models\Log;
+use App\Models\Subscribtion;
 use App\MyHelper\Helper;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Response;
@@ -18,7 +19,7 @@ class JoinRequestController extends Controller
 
     public function __construct()
     {
-        $this->model = new JoinRequest();
+        $this->model = new Subscribtion();
         $this->helper = new Helper();
 
     }
@@ -49,7 +50,9 @@ class JoinRequestController extends Controller
      */
     public function create()
     {
-        //
+        $model = $this->model ;
+        $edit = false ;
+        return  $this->view('create',compact('model','edit'));
     }
 
     /**
@@ -60,7 +63,21 @@ class JoinRequestController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $rules = [
+            'text' => 'required',
+            'days'  => 'required',
+            'price' => 'required',
+        ];
+        $messages = [
+            'text.required' => ' العنوان مطلوب',
+            'days.required' => '  عدد الايام مطلوب',
+            'price.required' => 'السعر  مطلوب',
+        ];
+        $this->validate($request, $rules, $messages);
+        $record = $this->model->create($request->all());
+        Log::createLog($record, auth()->user(), 'عملية اضافة', 'إضافة محامي #' . $record->name);
+        session()->flash('success', __('تم الإضافة'));
+        return redirect(route('join-requests.index'));
     }
 
     /**
@@ -80,9 +97,11 @@ class JoinRequestController extends Controller
      * @param  \App\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function edit(Request $request)
+    public function edit(Request $request,$id)
     {
-        //
+        $model = $this->model->findOrFail($id);
+        $edit = true ;
+        return $this->view('edit', compact('model','edit'));
     }
 
     /**
@@ -92,9 +111,28 @@ class JoinRequestController extends Controller
      * @param  \App\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request)
+    public function update(Request $request , $id)
     {
-        //
+        $record = $this->model->findOrFail($id);
+        $rules = [
+            'text' => 'required',
+            'days'  => 'required',
+            'price' => 'required',
+        ];
+        $messages = [
+            'text.required' => ' العنوان مطلوب',
+            'days.required' => '  عدد الايام مطلوب',
+            'price.required' => 'السعر  مطلوب',
+        ];
+
+        $this->validate($request, $rules, $messages);
+        $record = $this->model->findOrFail($id);
+        $record->update($request->all());
+
+
+        Log::createLog($record , auth()->user() ,'عملية تعديل' ,'تعديل عميل #' . $record->id);
+        session()->flash('success','تم التعديل');
+        return redirect(route('join-requests.index'));
     }
 
     /**
@@ -109,7 +147,7 @@ class JoinRequestController extends Controller
         $record->delete();
         Log::createLog($record , auth()->user() ,'عملية حذف' ,'حذف طلب إنضمام #' . $record->business);
         session()->flash('success', __('تم الحذف'));
-        return redirect()->route('consults.index');
+        return redirect()->route('join-requests.index');
     }
 
     public function downloadPDF($id)

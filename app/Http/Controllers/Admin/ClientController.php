@@ -78,14 +78,12 @@ class ClientController extends Controller
             'name' => 'required',
             'phone' => 'required',
             'email' => 'required',
-            'fax' => 'required',
             'image' => 'required',
         ];
         $messages = [
             'name.required' => 'الاسم مطلوب',
             'phone.required' => 'رقم الهاتف مطلوب',
             'email.required'=> 'البريد اﻹلكتروني مطلوب',
-            'fax.required'  => 'الفاكس مطلوب',
             'image.required' => 'اللوجو مطلوب',
         ];
         $this->validate($request, $rules, $messages);

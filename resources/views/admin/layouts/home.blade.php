@@ -31,7 +31,7 @@
 <div class="col-lg-3 col-md-10 col-sm-10 col-xs-10">
     <div class="ibox ">
         <div class="ibox-title">
-            <h5>اﻹستشارات</h5>
+            <h5>عدد الفواتير</h5>
         </div>
         <div class="ibox-content">
             <h1 class="no-margins">{{ $contacts->count() }}</h1>
@@ -42,7 +42,7 @@
     <div class="row">
         <div class="col-md-6">
             <div class="ibox-title">
-                <h5>اﻹستشارات شهريا</h5>
+                <h5>الفواتير شهريا</h5>
             </div>
             <div class="ibox-content">
                 {!! $line1->container() !!}

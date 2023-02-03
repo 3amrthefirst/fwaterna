@@ -16,7 +16,7 @@ class Article extends Model
 
     public $guard_name = 'articles';
 
-    protected $table = 'articles';
+    protected $table = 'products';
     public $timestamps = true;
-    protected $fillable = array('title','content');
+    protected $fillable = array('title','content','price');
 }

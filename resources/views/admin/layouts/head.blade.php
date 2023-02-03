@@ -5,11 +5,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- SITE LOGO -->
-        <link rel="icon" type="image/png" href="{{ asset('photos/logo.png') }}" />
+        <link rel="icon" type="image/png" href="{{ asset('logo.jpeg') }}" />
         <link href="{{ asset('photos/fav.png') }}" rel="apple-touch-icon">
-        {{-- <title>
-            {{ (isset($title) ? $title : app()->getLocale() == 'en') ? app('settings')->site_name_en : app('settings')->site_name . '|' . __('لوحة التحكم') }}
-        </title> --}}
+         <title>
+        لوحة التحكم
+        </title> 
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link href="{{ asset('inspina/css/bootstrap.min.css') }}" rel="stylesheet">
 
@@ -42,6 +42,7 @@
             integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css">
+        
 
 
     <style>

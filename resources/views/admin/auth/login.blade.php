@@ -27,7 +27,7 @@
 <div class="middle-box text-center loginscreen animated fadeInDown ">
     <div>
         <div>
-            <img src="{{asset('photos/logo.png')}}" width="80%" height="0%"/>
+            <img src="{{asset('logo.jpeg')}}" width="80%" height="0%"/>
             {{-- <h3 class="logo-name" style="font-size: 40px;">  {{config('app.name')}} </h3> --}}
         </div>
 

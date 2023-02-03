@@ -1,20 +1,10 @@
 @extends('admin.layouts.main',[
-								'page_header'		=> 'فريق العمل',
+								'page_header'		=> 'الفوايتر',
 								'page_description'	=> 'عرض ',
 								'link' => url('admin/contacts')
 								])
 @section('content')
     <div class="ibox ibox-primary">
-        @can('اضافة محامي')
-            <div class="ibox-title">
-                <div class="pull-left">
-                    <a href="{{url('admin/laywers/create')}}" class="btn btn-primary">
-                        <i class="fa fa-plus"></i> إضافة جديد
-                    </a>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        @endcan
         <div class="ibox-title">
             {!! Form::open([
                 'method' => 'GET',
@@ -24,7 +14,7 @@
                     <div class="form-group">
                         {!! Form::text('name',request()->input('name'),[
                         'class' => 'form-control',
-                        'placeholder' => 'إسم المحامي'
+                        'placeholder' => 'إسم العميل'
                         ])!!}
                     </div>
                 </div>

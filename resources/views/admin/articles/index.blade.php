@@ -1,23 +1,23 @@
 @extends('admin.layouts.main',[
-								'page_header'		=> 'المقالات',
+								'page_header'		=> 'منتجات العملاء',
 								'page_description'	=> 'عرض ',
 								'link' => url('admin/articles')
 								])
 @section('content')
     <div class="ibox ibox-primary">
-        @can('اضافة مقالة')
-            <div class="ibox-title">
-                <div class="pull-left">
-                    <a href="{{url('admin/articles/create')}}" class="btn btn-primary">
-                        <i class="fa fa-plus"></i> إضافة جديد
-                    </a>
-                </div>
-                {{-- <div class="pull-right">
-                    <a class="btn btn-default text-green btn-sm" href=""><i class="fa fa-file-excel-o"></i></a>
-                </div> --}}
-                <div class="clearfix"></div>
-            </div>
-        @endcan
+        <!--@can('اضافة مقالة')-->
+        <!--    <div class="ibox-title">-->
+        <!--        <div class="pull-left">-->
+        <!--            <a href="{{url('admin/articles/create')}}" class="btn btn-primary">-->
+        <!--                <i class="fa fa-plus"></i> إضافة جديد-->
+        <!--            </a>-->
+        <!--        </div>-->
+        <!--        {{-- <div class="pull-right">-->
+        <!--            <a class="btn btn-default text-green btn-sm" href=""><i class="fa fa-file-excel-o"></i></a>-->
+        <!--        </div> --}}-->
+        <!--        <div class="clearfix"></div>-->
+        <!--    </div>-->
+        <!--@endcan-->
         <div class="ibox-title">
             {!! Form::open([
                 'method' => 'GET',
@@ -27,7 +27,7 @@
                     <div class="form-group">
                         {!! Form::text('title',request()->input('title'),[
                         'class' => 'form-control',
-                            'placeholder' => 'عنوان المقالة'
+                            'placeholder' => 'عنوان المنتج'
                         ])!!}
                     </div>
                 </div>
@@ -49,8 +49,9 @@
                 <table class="data-table table table-bordered">
                     <thead>
                     <th class="text-center"> م</th>
-                    <th class="text-center">عنوان المفالة </th>
+                    <th class="text-center"> عنوان المنتج </th>
                     <th class="text-center"> المحتوى</th>
+                    <th class="text-center"> السعر</th>
                     <th class="text-center">صورة الغلاف</th>
                     <th class="text-center"> تعديل</th>
                     <th class="text-center">حذف</th>
@@ -62,6 +63,7 @@
                             <td class="text-center">{{$loop->iteration}}</td>
                             <td class="text-center">{{optional($record)->title}}</td>
                             <td class="text-center">{{optional($record)->content}}</td>
+                            <td class="text-center">{{optional($record)->price}}</td>
                             <td class="text-center">
                                 <img src="{{asset($record->attachmentRelation->path)}}" style="width:60px;height:60px;border-raduis:100px;">
                             </td>

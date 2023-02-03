@@ -77,11 +77,13 @@ class ArticleController extends Controller
             'title' => 'required',
             'content' => 'required',
             'image' => 'required',
+            'price' => 'required',
         ];
         $messages = [
             'title.required' => 'عنوان المقالة مطلوب',
             'content.required' => 'محتوى المقالة مطلوب',
             'image.required' => 'صورة الغلاف مطلوبة',
+            'price.required' => '  السعر مطلوب',
         ];
         $this->validate($request, $rules, $messages);
         $record = $this->model->create($request->all());

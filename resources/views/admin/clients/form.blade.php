@@ -1,7 +1,6 @@
 {!! \App\MyHelper\Field::text('name' , 'اسم العميل' ) !!}
 
 {!! \App\MyHelper\Field::text('phone' , 'رقم الهاتف' ) !!}
-{!! \App\MyHelper\Field::text('fax','الفاكس') !!}
 {!! \App\MyHelper\Field::email('email','الايميل') !!}
 {!! \App\MyHelper\Field::fileWithPreview('image','الصورة') !!}
 
